@@ -13,7 +13,7 @@ describe("What Can I drink function", function() {
     describe("Checks Age", function() {
         it("should return drink toddy when called as whatCanIDrink(13)", function() {
             var result = whatCanIDrink(13)
-            expect(result).toBe("Drink Toddy");
+            expect(result).toBe("Drink Fanta");
         });
     });
 
