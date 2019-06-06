@@ -1,3 +1,5 @@
 function whatCanIDrink(age) {
-    return "Beer";
+    if (age <0) {
+        return "Just have a drink";
+                }
 }

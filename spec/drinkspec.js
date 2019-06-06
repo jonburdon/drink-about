@@ -1,7 +1,12 @@
-describe("Calculator", function() {
-    describe("Addition function", function() {
-        it("should return Beer", function() {
-            expect(whatCanIDrink(age)).toBe("Beer");
+describe("What Can I drink function", function() {
+    
+    beforeEach(function() {
+        drink = new whatCanIDrink();
+    });
+    
+    describe("Checks Age", function() {
+        it("should exist", function() {
+            expect(whatCanIDrink).toBeDefined();
         });
     });
 });
