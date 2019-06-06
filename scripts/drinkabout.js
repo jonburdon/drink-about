@@ -1,3 +1,3 @@
-function whatCanIDrink() {
+function whatCanIDrink(age) {
     return "Beer";
 }
